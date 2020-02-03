@@ -1,0 +1,16 @@
+
+
+
+https://hackernoon.com/tokenization-of-digital-assets-g0ffk3v8s
+
+In our contract each token generated represents one license to use the software. 
+Whoever holds that token is licensed to run the software. 
+
+If the token is transferred, so is the access to the software.
+
+
+The licenses will expire after some time and they will have to be topped up to remain valid. 
+For that we are going to create an additional mapping between licenses and expiration dates. 
+We will have one method that accepts Ether and pushes the expiration date of the licenses into the future.
+
+After that we only need one more method to check expiration dates which is very simple. 
